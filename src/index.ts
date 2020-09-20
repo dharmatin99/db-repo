@@ -6,7 +6,7 @@ export const connection = async(config) => {
     return await createConnection({ 
         ...config, 
         ...connectionOptions, ...{
-            entities: ["./entity/**/*.ts"]
+            entities: [__dirname + "/entity/**/*"]
         } 
     });
 }
