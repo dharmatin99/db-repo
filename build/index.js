@@ -57,7 +57,7 @@ exports.connection = function (config) { return __awaiter(_this, void 0, void 0,
             case 1:
                 connectionOptions = _a.sent();
                 return [4 /*yield*/, typeorm_1.createConnection(__assign({}, config, connectionOptions, {
-                        entities: ["./entity/**/*.ts"]
+                        entities: [__dirname + "/entity/**/*"]
                     }))];
             case 2: return [2 /*return*/, _a.sent()];
         }
