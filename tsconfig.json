@@ -12,6 +12,6 @@
       "experimentalDecorators": true,
       "sourceMap": true,
       "declaration": true,
-      "emitDeclarationOnly": true
+      // "emitDeclarationOnly": true
    }
 }
